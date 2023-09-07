@@ -1,0 +1,12 @@
+<header class="header">
+  <h1>Noter</h1>
+  <input
+    type="text"
+    class="new-todo"
+    placeholder="New todo"
+    autofocus
+    [value]="text"
+    (keyup)="changeText($event)"
+    (keyup.enter)="addTodo()"
+  />
+</header>
