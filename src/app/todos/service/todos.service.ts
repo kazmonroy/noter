@@ -17,6 +17,9 @@ export class TodosService {
   }
 
   addTodo(text: string) {
+    if (!text) {
+      return;
+    }
     const newTodo: Todo = {
       text,
       isDone: false,
