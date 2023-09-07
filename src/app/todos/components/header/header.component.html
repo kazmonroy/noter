@@ -3,7 +3,8 @@
   <input
     type="text"
     class="new-todo"
-    placeholder="New todo"
+    [ngClass]="{ open: !noTodosClass() }"
+    placeholder="New todo..."
     autofocus
     [value]="text"
     (keyup)="changeText($event)"

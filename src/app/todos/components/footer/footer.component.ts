@@ -25,6 +25,5 @@ export class FooterComponent {
   changeFilter(event: Event, filterName: Filters) {
     event.preventDefault();
     this.todosService.changeFilter(filterName);
-    // console.log(this.filterSig(), `${this.todosService.filtersSig()}`);
   }
 }

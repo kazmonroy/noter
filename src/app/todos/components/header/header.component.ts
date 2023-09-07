@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, computed, inject } from '@angular/core';
 import { TodosService } from '../../service/todos.service';
 
 @Component({
@@ -9,6 +9,8 @@ import { TodosService } from '../../service/todos.service';
 export class HeaderComponent {
   todosService = inject(TodosService);
   text: string = '';
+
+  noTodosClass = computed(() => this.todosService.todosSig().length === 0);
 
   changeText(event: Event) {
     const target = event.target as HTMLInputElement;
