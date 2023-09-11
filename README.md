@@ -1,4 +1,5 @@
-# Noter.
+<h1 align="center">
+Noter.</h1>
 
 <p align="center">
 Noter is a simple minimalistic todo list app.
