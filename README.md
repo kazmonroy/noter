@@ -1,9 +1,15 @@
 <p align="center">
 # Noter.
- Noter is a simple minimalistic todo list app. 
- ![Static Badge](https://img.shields.io/badge/angular-_v.16-red)
- ![Static Badge](https://img.shields.io/badge/vercel-_v.32-black)
- ![Static Badge](https://img.shields.io/badge/sass-_v.1.6-CF649A)
+ Noter is a simple minimalistic todo list app.
+
+<!-- https://img.shields.io/badge/angular-_v.16-red
+https://img.shields.io/badge/vercel-_v.32-black -->
+
+ <!-- https://img.shields.io/badge/sass-_v.1.6-CF649A -->
+
+<img src="https://img.shields.io/badge/angular-_v.16-red" alt="Angular">
+<img src="https://img.shields.io/badge/vercel-_v.32-black" alt="Vercel">
+<img src=" https://img.shields.io/badge/sass-_v.1.6-CF649A" alt="Sass ">
 
 </p>
 
