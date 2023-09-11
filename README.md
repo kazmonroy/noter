@@ -2,7 +2,7 @@
 Noter.</h1>
 
 <p align="center">
-A simple minimalistic todo list app.
+A minimalistic todo list app.
 </p>
 
 <p align="center">
