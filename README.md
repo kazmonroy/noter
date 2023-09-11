@@ -1,27 +1,40 @@
-# NgTodo
+<p align="center">
+# Noter.
+ Noter is a simple minimalistic todo list app. 
+ ![Static Badge](https://img.shields.io/badge/angular-_v.16-red)
+ ![Static Badge](https://img.shields.io/badge/vercel-_v.32-black)
+ ![Static Badge](https://img.shields.io/badge/sass-_v.1.6-CF649A)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+</p>
 
-## Development server
+### Note
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Noter is developed in Angular including the latest framework's update: Angular Signals. The project's main purporse was to practice and sharpen my Frontend skills while learning new tools.
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Use the following commands to install Noter in your local machine.
 
-## Build
+```bash
+git clone https://github.com/kazmonroy/noter.git
+cd noter
+npm install
+ng serve --open
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
 
-## Running unit tests
+## Tools
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Sass](https://sass-lang.com/)
+- [Vercel](https://vercel.com/)
+- [Angular 16](https://angular.io/)
+- [Angular Signals](https://angular.io/guide/signals)
+- [Angular Feather Icons](https://github.com/michaelbazos/angular-feather)
 
-## Running end-to-end tests
+## Note
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+[MIT](https://choosealicense.com/licenses/mit/)
 
-## Further help
+## License
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[MIT](https://choosealicense.com/licenses/mit/)
