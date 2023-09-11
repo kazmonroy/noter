@@ -1,11 +1,7 @@
-<p align="center">
 # Noter.
-</p>
 
 <p align="center">
-
 Noter is a simple minimalistic todo list app.
-
 </p>
 
 <p align="center">
@@ -38,10 +34,6 @@ ng serve --open
 - [Angular 16](https://angular.io/)
 - [Angular Signals](https://angular.io/guide/signals)
 - [Angular Feather Icons](https://github.com/michaelbazos/angular-feather)
-
-## Note
-
-[MIT](https://choosealicense.com/licenses/mit/)
 
 ## License
 
