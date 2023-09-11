@@ -5,7 +5,7 @@ import { Filters } from '../../types/todos.interface';
 @Component({
   selector: 'app-todos-footer',
   templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css'],
+  styleUrls: ['./footer.component.scss'],
 })
 export class FooterComponent {
   todosService = inject(TodosService);

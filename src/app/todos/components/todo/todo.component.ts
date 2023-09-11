@@ -16,7 +16,7 @@ import { TodosService } from '../../service/todos.service';
 @Component({
   selector: 'app-todo',
   templateUrl: './todo.component.html',
-  styleUrls: ['./todo.component.css'],
+  styleUrls: ['./todo.component.scss'],
 })
 export class TodoComponent implements OnInit, OnChanges {
   todosService = inject(TodosService);
@@ -59,5 +59,6 @@ export class TodoComponent implements OnInit, OnChanges {
 
   setTodoEditingMode() {
     this.setEditingId.emit(this.todo.id);
+    console.log('cliecked!');
   }
 }

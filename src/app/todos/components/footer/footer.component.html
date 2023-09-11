@@ -1,6 +1,6 @@
-<footer class="footer" [ngClass]="{ hidden: noTodosClass() }">
+<footer [ngClass]="{ hidden: noTodosClass() }">
   <span class="todo-count">
-    <strong> {{ activeCount() }} </strong>
+    <strong> {{ activeCount() }}</strong>
     {{ itemsLeftText() }}
   </span>
   <ul class="filters">

@@ -1,0 +1,39 @@
+@import "../../../../styles.scss";
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: var(--surface);
+  color: var(----primary-text);
+  border-radius: 16px;
+  padding: 8px 16px;
+  font-weight: 300;
+
+  span {
+    display: flex;
+    flex: 1;
+    gap: 8px;
+  }
+
+  .filters {
+    display: flex;
+    list-style: none;
+    gap: 4px;
+    li {
+      a {
+        color: var(--primary-text);
+        display: inline-block;
+        padding: 4px 8px;
+        border-radius: 16px;
+
+        &:hover {
+          background-color: var(--hover);
+        }
+      }
+    }
+
+    .selected {
+      background: var(--hover);
+    }
+  }
+}

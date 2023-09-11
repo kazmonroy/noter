@@ -1,5 +1,9 @@
-<header class="header">
-  <h1>Noter</h1>
+<header>
+  <div class="title">
+    <h1>Noter</h1>
+    <app-mode-toggle></app-mode-toggle>
+  </div>
+
   <input
     type="text"
     class="new-todo"
@@ -11,3 +15,5 @@
     (keyup.enter)="addTodo()"
   />
 </header>
+
+<!-- [ngClass]="{ open: !noTodosClass() }" -->

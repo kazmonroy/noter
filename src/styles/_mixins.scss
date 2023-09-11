@@ -1,0 +1,21 @@
+@import "./variables";
+
+@mixin lightMode() {
+  --surface-container: #{$root_light};
+  --primary-text: #{$primary_light};
+  --secondary: #{$secondary_light};
+  --placeholder-text: #{$secondary_light};
+  --surface: #{$suface_light};
+  --hover: #{$surface-bright_light};
+  --hover-icon: #{$surface-bright-on-primary_light};
+}
+
+@mixin darkMode() {
+  --surface-container: #{$root_dark};
+  --primary-text: #{$primary_dark};
+  --secondary: #{$secondary_dark};
+  --surface: #{$suface_dark};
+  --placeholder-text: #{$secondary_dark};
+  --hover: #{$surface-bright_dark};
+  --hover-icon: #{$surface-bright-on-primary_dark};
+}

@@ -5,7 +5,7 @@ import { Filters, Todo } from '../types/todos.interface';
   providedIn: 'root',
 })
 export class TodosService {
-  todosSig = signal<Todo[]>([]);
+  todosSig = signal<Todo[]>([{ id: '1', text: 'new', isDone: false }]);
   filtersSig = signal<Filters>(Filters.all);
 
   LOCAL_STORAGE_KEY = 'todos';

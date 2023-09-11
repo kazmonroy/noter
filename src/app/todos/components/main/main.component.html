@@ -1,12 +1,15 @@
 <section class="main" [ngClass]="{ hidden: noTodosClass() }">
-  <input
-    type="checkbox"
-    class="toggle-all"
-    id="toggle-all"
-    [checked]="isAllTodoSelected()"
-    (change)="toggleAllTodos($event)"
-  />
-  <label for="toggle-all">Mark all as Done</label>
+  <div class="toggle">
+    <input
+      type="checkbox"
+      class="toggle-all"
+      id="toggle-all"
+      [checked]="isAllTodoSelected()"
+      (change)="toggleAllTodos($event)"
+    />
+    <label for="toggle-all"></label>
+  </div>
+
   <ul class="todo-list">
     <app-todo
       *ngFor="let todo of visibleTodos()"

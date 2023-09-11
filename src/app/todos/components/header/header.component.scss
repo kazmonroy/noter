@@ -1,0 +1,31 @@
+@import "../../../../styles.scss";
+
+header {
+  display: flex;
+  flex-direction: column;
+  .title {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+.new-todo {
+  padding: 10px 8px 8px 32px;
+  border: none;
+  border-radius: 16px 16px 16px 16px;
+  color: var(--primary-text);
+  background: var(--surface);
+
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.new-todo::placeholder {
+  color: var(--placeholder-text);
+  vertical-align: middle;
+}

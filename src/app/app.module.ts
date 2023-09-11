@@ -9,6 +9,7 @@ import { FooterComponent } from './todos/components/footer/footer.component';
 import { MainComponent } from './todos/components/main/main.component';
 import { CommonModule } from '@angular/common';
 import { TodoComponent } from './todos/components/todo/todo.component';
+import { ModeToggleModule } from './mode-toggle/mode-toggle.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { TodoComponent } from './todos/components/todo/todo.component';
     MainComponent,
     TodoComponent,
   ],
-  imports: [BrowserModule, CommonModule, AppRoutingModule],
+  imports: [BrowserModule, CommonModule, AppRoutingModule, ModeToggleModule],
   providers: [],
   bootstrap: [AppComponent],
 })
