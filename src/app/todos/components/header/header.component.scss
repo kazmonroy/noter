@@ -26,10 +26,11 @@ header {
   line-height: 24px;
   display: flex;
   align-items: center;
+  vertical-align: bottom;
 }
 
 .new-todo::placeholder {
   color: var(--secondary);
   opacity: 0.5;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
