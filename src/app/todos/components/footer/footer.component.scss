@@ -8,6 +8,7 @@ footer {
   border-radius: 16px;
   padding: 8px 16px;
   font-weight: 300;
+  min-height: 42px;
 
   span {
     display: flex;
@@ -22,7 +23,9 @@ footer {
     li {
       a {
         color: var(--primary-text);
-        display: inline-block;
+        display: flex;
+        align-items: center;
+
         padding: 4px 8px;
         border-radius: 16px;
 

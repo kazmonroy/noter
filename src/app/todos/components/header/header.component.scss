@@ -12,12 +12,11 @@ header {
 }
 
 .new-todo {
-  padding: 10px 8px 8px 32px;
+  padding: 10px 8px 8px 40px;
   border: none;
   border-radius: 16px 16px 16px 16px;
-  color: var(--primary-text);
+  color: var(--secondary);
   background: var(--surface);
-
   font-family: inherit;
   font-size: 16px;
   line-height: 24px;
@@ -26,6 +25,7 @@ header {
 }
 
 .new-todo::placeholder {
-  color: var(--placeholder-text);
+  color: var(--secondary);
+  opacity: 0.5;
   vertical-align: middle;
 }

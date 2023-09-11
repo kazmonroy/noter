@@ -196,12 +196,11 @@ li {
   }
 
   .edit {
-    // border: 1px solid red;
     border: 0px solid transparent;
     border-bottom: 1px solid var(--hover);
     font-family: inherit;
     background-color: transparent;
-    color: var(--text-primary);
+    color: var(--secondary);
     font-size: inherit;
     height: 100%;
     padding: 4px 0px;
