@@ -5,8 +5,9 @@ header {
   flex-direction: column;
   .title {
     display: flex;
-    padding: 16px;
+    padding: 16px 0px 16px 8px;
     align-items: center;
+    justify-content: space-between;
     gap: 16px;
   }
 }

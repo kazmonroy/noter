@@ -29,6 +29,7 @@ export class ModeToggleService {
    * Exposed publicly so that other components can use this feature
    */
   modeChanged$: Observable<Mode>;
+  currentMode$ = this.modeChangedSubject.asObservable();
 
   constructor(
     @Inject(DOCUMENT) private document: Document,

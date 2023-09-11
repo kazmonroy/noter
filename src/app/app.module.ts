@@ -10,6 +10,7 @@ import { MainComponent } from './todos/components/main/main.component';
 import { CommonModule } from '@angular/common';
 import { TodoComponent } from './todos/components/todo/todo.component';
 import { ModeToggleModule } from './mode-toggle/mode-toggle.module';
+import { IconsModule } from './icons/icons.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,13 @@ import { ModeToggleModule } from './mode-toggle/mode-toggle.module';
     MainComponent,
     TodoComponent,
   ],
-  imports: [BrowserModule, CommonModule, AppRoutingModule, ModeToggleModule],
+  imports: [
+    BrowserModule,
+    CommonModule,
+    AppRoutingModule,
+    ModeToggleModule,
+    IconsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

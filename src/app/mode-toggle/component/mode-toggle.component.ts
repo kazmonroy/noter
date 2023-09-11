@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { ModeToggleService } from '../services/mode-toggle.service';
+import { Observable } from 'rxjs';
+import { Mode } from '../types/mode-toggle.model';
 
 /**
  * Angular component to switch the Mode
@@ -14,10 +16,16 @@ import { ModeToggleService } from '../services/mode-toggle.service';
   templateUrl: 'mode-toggle.component.html',
   styleUrls: ['mode-toggle.component.scss'],
 })
-export class ModeToggleComponent {
+export class ModeToggleComponent implements OnInit {
   constructor(private modeToggleService: ModeToggleService) {}
 
+  currentMode$: Observable<Mode> = this.modeToggleService.modeChanged$;
+  ngOnInit(): void {}
   toggle() {
     this.modeToggleService.toggleMode();
+
+    this.modeToggleService.modeChanged$.subscribe((res) => {
+      console.log(res);
+    });
   }
 }
