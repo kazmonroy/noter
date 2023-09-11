@@ -9,7 +9,7 @@
       [checked]="todo.isDone"
       (change)="toggleTodo()"
     />
-    <span class="checkmark"></span>
+    <span class="checkmark" (click)="$event.stopPropagation()"></span>
     <label>
       {{ todo.text }}
     </label>

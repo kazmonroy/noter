@@ -4,6 +4,9 @@ header {
   display: flex;
   flex-direction: column;
   .title {
+    h1 {
+      color: var(--secondary);
+    }
     display: flex;
     padding: 16px 0px 16px 8px;
     align-items: center;

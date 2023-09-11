@@ -19,7 +19,6 @@
 
   .light {
     @extend .dark;
-
     color: var(--surface);
   }
 }

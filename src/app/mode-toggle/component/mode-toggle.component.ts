@@ -23,9 +23,5 @@ export class ModeToggleComponent implements OnInit {
   ngOnInit(): void {}
   toggle() {
     this.modeToggleService.toggleMode();
-
-    this.modeToggleService.modeChanged$.subscribe((res) => {
-      console.log(res);
-    });
   }
 }

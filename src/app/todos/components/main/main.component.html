@@ -7,7 +7,7 @@
       [checked]="isAllTodoSelected()"
       (change)="toggleAllTodos($event)"
     />
-    <label for="toggle-all"></label>
+    <label for="toggle-all" [ngClass]="{ hidden: noTodosClass() }"></label>
   </div>
 
   <ul class="todo-list">
