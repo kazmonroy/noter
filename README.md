@@ -2,7 +2,7 @@
 Noter.</h1>
 
 <p align="center">
-Noter is a simple minimalistic todo list app.
+A simple minimalistic todo list app.
 </p>
 
 <p align="center">
@@ -12,9 +12,13 @@ Noter is a simple minimalistic todo list app.
 
 </p>
 
-### Note
+## Overview
 
 Noter is developed in Angular including the latest framework's update: Angular Signals. The project's main purporse was to practice and sharpen my Frontend skills while learning new tools.
+
+## Live Preview
+
+[Noter](https://ng-noter.vercel.app/)
 
 ## Installation
 
