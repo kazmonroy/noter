@@ -9,7 +9,7 @@ https://img.shields.io/badge/vercel-_v.32-black -->
 
 <img src="https://img.shields.io/badge/angular-_v.16-red" alt="Angular">
 <img src="https://img.shields.io/badge/vercel-_v.32-black" alt="Vercel">
-<img src=" https://img.shields.io/badge/sass-_v.1.6-CF649A" alt="Sass ">
+<img src="https://img.shields.io/badge/sass-_v.1.6-CF649A" alt="Sass ">
 
 </p>
 
